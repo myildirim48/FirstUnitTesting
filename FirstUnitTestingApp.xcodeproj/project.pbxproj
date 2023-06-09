@@ -29,6 +29,11 @@
 		749CF9E32A30A05600380161 /* PerformansTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CF9E22A30A05600380161 /* PerformansTesting.swift */; };
 		749CF9E52A30A19000380161 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CF9E42A30A19000380161 /* House.swift */; };
 		749CF9E72A30A1DE00380161 /* HouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CF9E62A30A1DE00380161 /* HouseTests.swift */; };
+		749CF9EA2A30DB8500380161 /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CF9E92A30DB8500380161 /* DependencyInjection.swift */; };
+		749CF9EC2A30DE6800380161 /* DependencyInjectiınTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CF9EB2A30DE6800380161 /* DependencyInjectiınTests.swift */; };
+		749CF9EE2A31BD9300380161 /* MockingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CF9ED2A31BD9300380161 /* MockingTests.swift */; };
+		749CF9F02A31D7B000380161 /* NewsNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CF9EF2A31D7B000380161 /* NewsNetworking.swift */; };
+		749CF9F22A31DEFE00380161 /* NewsNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CF9F12A31DEFE00380161 /* NewsNetworkingTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +81,11 @@
 		749CF9E42A30A19000380161 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
 		749CF9E62A30A1DE00380161 /* HouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTests.swift; sourceTree = "<group>"; };
 		749CF9E82A30A22800380161 /* FirstUnitTestingApp.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = FirstUnitTestingApp.xctestplan; sourceTree = "<group>"; };
+		749CF9E92A30DB8500380161 /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
+		749CF9EB2A30DE6800380161 /* DependencyInjectiınTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DependencyInjectiınTests.swift"; sourceTree = "<group>"; };
+		749CF9ED2A31BD9300380161 /* MockingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingTests.swift; sourceTree = "<group>"; };
+		749CF9EF2A31D7B000380161 /* NewsNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsNetworking.swift; sourceTree = "<group>"; };
+		749CF9F12A31DEFE00380161 /* NewsNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsNetworkingTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,8 +148,10 @@
 				741781BB2A2FB02E00C3320D /* Converter.swift */,
 				741781C02A308A5900C3320D /* PrimeCalculator.swift */,
 				749CF9DA2A30918300380161 /* Extensions.swift */,
+				749CF9E92A30DB8500380161 /* DependencyInjection.swift */,
 				749CF9E42A30A19000380161 /* House.swift */,
 				749CF9DE2A309C8F00380161 /* User.swift */,
+				749CF9EF2A31D7B000380161 /* NewsNetworking.swift */,
 			);
 			path = FirstUnitTestingApp;
 			sourceTree = "<group>";
@@ -148,6 +160,9 @@
 			isa = PBXGroup;
 			children = (
 				741781A02A2FAECE00C3320D /* FirstUnitTestingAppTests.swift */,
+				749CF9F12A31DEFE00380161 /* NewsNetworkingTests.swift */,
+				749CF9ED2A31BD9300380161 /* MockingTests.swift */,
+				749CF9EB2A30DE6800380161 /* DependencyInjectiınTests.swift */,
 				749CF9E02A309D2100380161 /* NotificationTests.swift */,
 				741781BD2A2FB0B500C3320D /* ConverterTests.swift */,
 				749CF9E22A30A05600380161 /* PerformansTesting.swift */,
@@ -301,6 +316,7 @@
 			files = (
 				7417818E2A2FAECD00C3320D /* ViewController.swift in Sources */,
 				7417818A2A2FAECD00C3320D /* AppDelegate.swift in Sources */,
+				749CF9EA2A30DB8500380161 /* DependencyInjection.swift in Sources */,
 				741781BA2A2FAEE800C3320D /* Hater.swift in Sources */,
 				741781C12A308A5900C3320D /* PrimeCalculator.swift in Sources */,
 				749CF9E52A30A19000380161 /* House.swift in Sources */,
@@ -308,6 +324,7 @@
 				7417818C2A2FAECD00C3320D /* SceneDelegate.swift in Sources */,
 				741781BC2A2FB02E00C3320D /* Converter.swift in Sources */,
 				749CF9DB2A30918300380161 /* Extensions.swift in Sources */,
+				749CF9F02A31D7B000380161 /* NewsNetworking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,12 +333,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				741781C32A308A9000C3320D /* PrimeCalculatorTests.swift in Sources */,
+				749CF9EC2A30DE6800380161 /* DependencyInjectiınTests.swift in Sources */,
 				741781BE2A2FB0B500C3320D /* ConverterTests.swift in Sources */,
 				749CF9E72A30A1DE00380161 /* HouseTests.swift in Sources */,
 				741781A12A2FAECE00C3320D /* FirstUnitTestingAppTests.swift in Sources */,
 				749CF9DD2A3092BC00380161 /* CustomAssertions.swift in Sources */,
 				749CF9E12A309D2100380161 /* NotificationTests.swift in Sources */,
 				749CF9E32A30A05600380161 /* PerformansTesting.swift in Sources */,
+				749CF9F22A31DEFE00380161 /* NewsNetworkingTests.swift in Sources */,
+				749CF9EE2A31BD9300380161 /* MockingTests.swift in Sources */,
 				741781C62A308F8C00C3320D /* ThrowingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
